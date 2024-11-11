@@ -14,12 +14,16 @@
     <section class="container vh-100 d-flex flex-column align-items-center justify-content-center">
 
         <!-- Timer -->
-        <h1 class="timer fw-bolder fs-1 align-middle">
+        <h1 class="timer fw-bolder fs-1 align-middle mb-4">
             30
         </h1>
         <!-- /Timer -->
 
-        <p class="description text-center">Inserisci tutti i numeri che ti ricordi (l'ordine non è importante)</p>
+        <!-- Description -->
+        <p class="description d-none text-center mb-4">
+            Inserisci tutti i numeri che ti ricordi (l'ordine non è importante)
+        </p>
+        <!-- /Description -->
         
         <!-- Random Numbers Field -->
         <div class="rng-field mb-4">
@@ -29,31 +33,31 @@
 
                 <!-- Col 1 -->
                 <div class="col random-number">
-                    45
+                    
                 </div>
                 <!-- /Col 1 -->
 
                 <!-- Col 2 -->
                 <div class="col random-number">
-                    45
+                    
                 </div>
                 <!-- /Col 2 -->
 
                 <!-- Col 3 -->
                 <div class="col random-number">
-                    54
+                    
                 </div>
                 <!-- /Col 3 -->
 
                 <!-- Col 4 -->
                 <div class="col random-number">
-                    45
+                    
                 </div>
                 <!-- /Col 4 -->
 
                 <!-- Col 5 -->
                 <div class="col random-number">
-                    45
+                    
                 </div>
                 <!-- /Col 5 -->
 
@@ -64,38 +68,38 @@
         <!-- /Random Numbers Field -->
 
         <!-- Input Field -->
-        <div class="input-field mb-3 d-none">
+        <div class="input-field mb-4 d-none">
 
             <!-- Row -->
             <div class="row justify-content-center">
 
                 <!-- Col 1 -->
                 <div class="col">
-                    <input class="form-control" type="number">
+                    <input class="form-control" type="number" min="1" max="99">
                 </div>
                 <!-- /Col 1 -->
 
                 <!-- Col 2 -->
                 <div class="col">
-                    <input class="form-control" type="number">
+                    <input class="form-control" type="number" min="1" max="99">
                 </div>
                 <!-- /Col 2 -->
 
                 <!-- Col 3 -->
                 <div class="col">
-                    <input class="form-control" type="number">
+                    <input class="form-control" type="number" min="1" max="99">
                 </div>
                 <!-- /Col 3 -->
 
                 <!-- Col 4 -->
                 <div class="col">
-                    <input class="form-control" type="number">
+                    <input class="form-control" type="number" min="1" max="99">
                 </div>
                 <!-- /Col 4 -->
 
                 <!-- Col 5 -->
                 <div class="col">
-                    <input class="form-control" type="number">
+                    <input class="form-control" type="number" min="1" max="99">
                 </div>
                 <!-- /Col 5 -->
 
@@ -106,14 +110,21 @@
         <!-- /Input Field -->
 
         <!-- Button -->
-        <div class="btn-section d-none mb-2">
-            <button class="btn btn-primary">Conferma</button>
+        <div class="btn-section d-none mb-3">
+            <button class="btn btn-primary px-4">Conferma</button>
         </div>
-        <!-- Button -->
+        <!-- /Button -->
+
+        <!-- Reset Button -->
+        <div class="btn-retry d-none mb-4">
+            <button class="btn btn-danger px-3">Riprova</button>
+        </div>
+        <!-- /Reset Button -->
 
         <!-- Result -->
         <p class="result"></p>
-        <!-- Result -->
+        <!-- /Result -->
+
     </section>
   
     <script src="./js/scripts.js"></script>
