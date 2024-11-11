@@ -8,9 +8,9 @@ const btnElem = document.querySelector(".btn");
 const randomNumbers = [];
 
 for (let i = 0; i < randomNumElem.length; i++) {
-    const randomValue = randomNum(1, 100);
-    randomNumbers.push(randomValue);
-    randomNumElem[i].innerHTML = randomValue;
+    const curNum = randomNum(1, 100);
+    randomNumbers.push(curNum);
+    randomNumElem[i].innerHTML = curNum;
 }
 
 
