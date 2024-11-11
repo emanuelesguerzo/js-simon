@@ -42,6 +42,7 @@ const userNum = [];
 btnElem.addEventListener("click", function() {
     userNum.length = 0;
     let allValid = true;
+    btnElem.classList.add("d-none");
     
     for (let i = 0; i < allInputs.length; i++) {
         let curNum = allInputs[i].value;
