@@ -11,13 +11,15 @@
 </head>
 <body>
 
-    <section>
+    <section class="container vh-100 d-flex flex-column align-items-center justify-content-center">
 
         <!-- Timer -->
-        <h1></h1>
+        <h1 class="fw-bolder fs-1 align-middle">
+            30
+        </h1>
         <!-- /Timer -->
 
-        <p>Inserisci tutti i numeri che ti ricordi (l'ordine non è importante)</p>
+        <p class="text-center">Inserisci tutti i numeri che ti ricordi (l'ordine non è importante)</p>
         
         <!-- Random Numbers Field -->
         <div class="rng-field">
@@ -62,38 +64,38 @@
         <!-- /Random Numbers Field -->
 
         <!-- Input Field -->
-        <div class="input-field">
+        <div class="input-field mb-3">
 
             <!-- Row -->
             <div class="row">
 
                 <!-- Col 1 -->
                 <div class="col">
-                    <input type="number">
+                    <input class="form-control" type="number">
                 </div>
                 <!-- /Col 1 -->
 
                 <!-- Col 2 -->
                 <div class="col">
-                    <input type="number">
+                    <input class="form-control" type="number">
                 </div>
                 <!-- /Col 2 -->
 
                 <!-- Col 3 -->
                 <div class="col">
-                    <input type="number">
+                    <input class="form-control" type="number">
                 </div>
                 <!-- /Col 3 -->
 
                 <!-- Col 4 -->
                 <div class="col">
-                    <input type="number">
+                    <input class="form-control" type="number">
                 </div>
                 <!-- /Col 4 -->
 
                 <!-- Col 5 -->
                 <div class="col">
-                    <input type="number">
+                    <input class="form-control" type="number">
                 </div>
                 <!-- /Col 5 -->
 
@@ -104,7 +106,9 @@
         <!-- /Input Field -->
 
         <!-- Button -->
-        <button class="btn btn-primary">Conferma</button>
+        <div class="mb-2">
+            <button class="btn btn-primary">Conferma</button>
+        </div>
         <!-- Button -->
 
         <!-- Result -->
